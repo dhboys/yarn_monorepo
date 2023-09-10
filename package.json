@@ -1,0 +1,17 @@
+{
+  "name": "yarn-berry-workspace",
+  "packageManager": "yarn@3.5.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "docs/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "styled-components": "^6.0.7"
+  }
+}

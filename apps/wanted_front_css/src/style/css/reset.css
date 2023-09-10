@@ -1,0 +1,26 @@
+html {
+  /*rem 을 사용하여 1.5rem = 15px 이런식으로 사용하기 위함*/
+  /*62.5% 사용한다면 10px이다.*/
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  /*serif는 꺾이는 부분 -> sans-serif는 꺾이는 부분이 없다*/
+  font-family: sans-serif;
+}
+
+button {
+  /*기본 속성(브라우저에서 제공)들을 없애기 위한 코드 -> 배경, 모양 등*/
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+h1 {
+  margin: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
