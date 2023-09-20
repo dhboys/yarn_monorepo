@@ -1,0 +1,40 @@
+.container {
+  padding: 10px;
+}
+
+.container div {
+  display: inline-block;
+}
+
+.container p {
+  display: inline-block;
+}
+
+.box {
+  box-sizing: content-box;
+  display: block;
+  float: none;
+  line-height: 28.8px;
+  position: static;
+  z-index: auto;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  padding-top: 0;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 10em;
+}
+
+.sky {
+  margin: 20px;
+  padding: 20px;
+  width: 180px;
+  height: 150px;
+  background-color: lightblue;
+  border: 2px solid blue;
+}
+
+/* .inline_block {
+  display: inline-block;
+} */

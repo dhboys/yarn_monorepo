@@ -17,10 +17,18 @@ button {
   background-color: transparent;
   border-radius: 0;
 }
-h1 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 a,
 a:hover {
   text-decoration: none;
+}
+
+@media screen and (max-width: 1080px) {
+  body {
+    background-color: blue;
+  }
 }

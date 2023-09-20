@@ -21,6 +21,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@svgr/webpack": "8.0.1",
     "@types/next": "^9.0.0",
     "@types/styled-components": "^5.1.26"
   }
