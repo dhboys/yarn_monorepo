@@ -9,7 +9,7 @@ const DashboardPage = () => {
       <main role="main">
         <header className="header">
           <a className="header__logo">
-            {/* <img src={logo.src} alt="logo" /> */}
+            <img src={logo.src} alt="logo" />
           </a>
           <nav className="header__gnb">
             <ul>
