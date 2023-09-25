@@ -1,21 +1,32 @@
-import Image from "next/image";
 import "../../styles/css/common.css";
 import "../../styles/css/layout.css";
-import logo from "../../styles/images/Deck.png";
+import Logo from "@/components/svg/Logo";
 
 const DashboardPage = () => {
+  const gnbExample = [
+    { name: "TECHNOLOGY" },
+    { name: "IDEAS" },
+    { name: "LEADERSHIP" },
+    { name: "VIDEO" },
+    { name: "NEWS" },
+    { name: "FINANCE" },
+    { name: "ENTERTAINMENT" },
+  ];
   return (
     <>
       <main role="main">
         <header className="header">
           <a className="header__logo">
-            <img src={logo.src} alt="logo" />
+            {/* <img src={logo.src} alt="logo" /> */}
+            <Logo />
           </a>
           <nav className="header__gnb">
             <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+              {gnbExample?.map((menu) => (
+                <li>
+                  <p>{menu.name}</p>
+                </li>
+              ))}
             </ul>
           </nav>
           <div className="header__ham-btn">
